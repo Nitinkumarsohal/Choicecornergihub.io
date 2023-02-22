@@ -374,3 +374,218 @@ input[placeholder],
     outline: none;
     border: none;
 }
+/* section4 close  */
+.section5{
+    padding: 50px 0px 50px 0px;
+    background: #424242;
+}
+.section5 .text-center h5{
+    color: #CAB6B6;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+}
+.section5 h5::after{
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #FF9900;
+    width: 120.21px;
+    height: 4.75px;
+    left: 0%;
+    right: 0%;
+    bottom: -47%;
+    margin: auto;
+    display: block;
+}
+.section5 .style-card{
+     position: relative;
+     margin-top: 5px;
+     transition:0.2s;
+}
+.section5 .style-card .img img{
+    width: 100%;
+    /* min-height: 400px; */
+    object-fit: contain;
+}
+.section5 .style-card .text{
+    padding-top: 8px !important;
+}
+.section5 .style-card .text .price-1{
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+.section5 .style-card .text p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #CAB6B6;
+    position: 0PX;
+    margin: 7PX 0PX;
+    line-height: 149%;
+}
+.section5 .style-card .text .price-2{
+    font-weight: 600;
+    font-size: 17px;
+    color: #FF9900;
+    padding-left: 13px;
+    margin: 0px;
+}
+.section5 .style-card .text .price-3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #CAB6B6;
+    padding-left: 15px;
+
+}
+.section5 .style-card .text .icon i{
+    padding-top: 14px;
+    color: #FF9900;
+    font-size: 17px;
+    margin: 2px;
+}
+.section5 .style-card .text .icon-2 i{
+    color: #4E4A49;
+}
+.section5 .style-card .text .icon .one{
+    color: #747474;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.section5 .style-card .box{
+    position: absolute;
+    background-color:#FF9900;
+    top: 0%;
+    width: 47.84px;
+    height: 19.57px;
+}
+.section5 .style-card .box span{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+/* section5 close  */
+.section6{
+    padding: 50px 0px 50px 0px;
+    min-height: 650px;
+    background-image: url("../images/bg-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+.section6 .text-center h4{
+    font-weight: 600;
+    font-size: 32px;
+    color: black;
+    position: relative;
+    padding-bottom: 21px;
+}
+.section6 .text-center h4::after{
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #FF9900;
+    width: 120.21px;
+    height: 4.75px;
+    left: 0%;
+    right: 0%;
+    bottom: -7%;
+    margin: auto;
+    display: block;
+}
+.section6 .style{
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 14px solid #FF9900;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section6 .style .img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -13%;
+}
+.section6 .style .img img{
+    height: 85px;
+    width: 85px;
+    object-fit: contain;
+}
+.section6 .style .text h5{
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 23px;
+}
+.section6 .style .text .icon-s{
+    color: #FF9900;
+    font-size: 17px;
+    margin: 0.1px;
+    padding-top:5px;
+}
+.section6 .style .text p{
+    font-size: 17px;
+    color: #3A3A3A;
+    font-weight: 600;
+    padding-top: 17px;
+    line-height:26px;
+}
+.section6 .style .text .img-d{
+    height: 65px;
+    width: 65px;
+    object-fit: contain;
+    margin-top: 18px;
+}
+/* section6 close  */
+.section7{
+    padding: 50px 0px 50px 0px;
+    background-color: #272121;
+}
+.section7 .text-center h4{
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    padding-bottom: 15px;
+}
+.section7 .text-center h4::after{
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #FF9900;
+    width: 120.21px;
+    height: 4.75px;
+    left: 0%;
+    right: 0%;
+    bottom: -9%;
+    margin: auto;
+    display: block;
+}
+.section7 .edit-style .img img{
+    width: 100%;
+    object-fit: contain;
+}
+.section7 .edit-style{
+    padding: 18px;
+    border-radius: 10px;
+    background-color: #373332;
+    margin: 15px;
+}
+.section7 .edit-style .text{
+    padding-top: 20px;
+}
+.section7 .edit-style .text h4{
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+}
+.section7 .edit-style .text p{
+    color: #E3E3E3;
+    font-size: 16px;
+    padding-top: 4px;
+    line-height: 23px;
+}
