@@ -35,6 +35,25 @@
     .section3 .all-text p {
         width: 100%;
     }
+    .section4 .box-text .a {
+        display: none;
+    }
+    .section4 .box-text h3 {
+        font-size: 24px;
+    }
+    .section6 .style {
+    padding: 0px;
+}
+.section6 .style .text h5 {
+    padding-top: 39px;
+}
+.section6 .style .text p {
+    font-size: 15px;
+}
+footer .style-2 .text-2 {
+    font-size: 10px;
+    line-height: 21px;
+}
 }
 /* done  */
 
@@ -68,6 +87,31 @@
     .slider .w-100 {
         min-height: 434px;
     }
+    .slider .carousel-caption h5 {
+        font-size: 23px;
+    }
+    .slider .carousel-caption {
+        bottom: 41px;
+    }
+    .section1 .main-card .text h5 {
+        font-family: 'Montserrat';
+        font-weight: 100;
+    }
+    .section1 .main-card .text .Corem {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+    .section3 .all-text h4 {
+        font-size: 21px;
+        font-weight: 100;
+        width: 100%;
+    }
+    footer .icon{
+        display: none;
+    }
+    .news .card{
+        margin: 15px 0px;
+    }
  }
  /* done  */
 
@@ -86,6 +130,31 @@
     .section2 .text-center h3::after {
         bottom: 28%;
     }
+    .slider .carousel-caption h5 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .slider .carousel-caption p {
+        font-size: 19px;
+        width: 67%;
+        padding-top: 2px;
+    }
+    .section3 {
+        min-height: 349px;
+    }
+    .section3 .video {
+        margin-top: 26px;
+    }
+    .section5 .text-center h5 {
+        padding-bottom: 52px;
+    }
+    .section5 h5::after {
+        bottom: 27px;
+    }
+    .section5 .style-card .text p {
+        color: #CAB6B6;
+        font-size: 20px;
+    }
  }
  /* done  */
 
@@ -93,22 +162,22 @@
 
 
  @media (max-width: 575.98px) { 
-    .slider .carousel-caption h5 {
-        width: 100%;
-        font-size: 21px;
-    }
-    .slider .carousel-caption p {
-        width: 100%;
-        padding-top: 0px;
-    }
-    .slider .carousel-caption {
-        bottom: 60px;
-    }
+  
     .section2 .style-card .text p {
         font-size: 18px;
     }
     .all-text {
         padding: 12px;
+    }
+    .slider .carousel-caption {
+        bottom: 60px;
+        display: none;
+    }
+    .slider .w-100 {
+        min-height: 14vh;
+    }
+    .section6 .style {
+        padding: 31px;
     }
     
     
