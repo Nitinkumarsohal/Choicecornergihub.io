@@ -573,7 +573,7 @@ input[placeholder],
     padding: 18px;
     border-radius: 10px;
     background-color: #373332;
-    margin: 15px;
+    margin: 19px;
 }
 .section7 .edit-style .text{
     padding-top: 20px;
@@ -588,4 +588,212 @@ input[placeholder],
     font-size: 16px;
     padding-top: 4px;
     line-height: 23px;
+}
+/* section 7 close  */
+
+.section8{
+    padding: 55px 0px 55px 0px;
+    background-color: #373332;
+}
+.section8 .text-center h4{
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    padding-bottom: 24px;
+}
+.section8 .text-center h4::after{
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #FF9900;
+    width: 120.21px;
+    height: 4.75px;
+    left: 0%;
+    right: 0%;
+    bottom: -4%;
+    margin: auto;
+    display: block;
+}
+.section8 .style-box{
+    background-color: #322E2D;
+    border-radius: 8px;
+    margin: 10px;
+}
+.section8 .accordion-item{
+    padding:2px;
+    background-color: transparent !important;
+    border-bottom: 1px solid #494342;
+}
+.section8 h5 {
+    font-size: 16px;
+    color: #E3E3E3;
+}
+.section8 p{
+    line-height: 27px;
+    font-size: 16px;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+.section8 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: transparent;
+}
+.accordion-button {
+    color: #ffffff;
+}
+.accordion-button:focus
+{
+    color: white;
+}
+.accordion-item {
+    color: white;
+}
+.accordion-button:not(.collapsed)::after {
+    display: none;
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+}
+.section8 .fa-solid, .fas {
+    font-weight: 900;
+    margin-left: auto;
+    display: block;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    border: none;
+}
+/* secction 8 close  */
+footer
+{
+    padding: 50px 0px 25px 0px;
+    background-color: #272121;
+}
+footer .style .text p{
+    color: white;
+    padding-top: 13px;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer .style-2 h5{
+    color: #E3E3E3;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+footer .style-2 .fa-shop{
+    color: white;
+    font-size: 24px;
+}
+footer .style-2 .text-2{
+    color: #E3E3E3;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 28px;
+}
+footer .style-2 .fa-envelope{
+    color: white;
+    font-size: 22px;
+    
+}
+footer .style-2 .fa-phone{
+    color: white;
+    font-size: 22px;
+
+}
+footer .style-3 h5{
+    color:white;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 20px;
+
+}
+footer .style-3 li{
+    font-weight: 600;
+    font-size: 16px;
+    list-style: none;
+    color: white;
+    margin: 9PX 0PX;
+    padding: 4PX;
+    
+}
+footer .icon h5{
+    color:white;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 20px;
+
+}
+footer  .icon i{
+    padding: 13px;
+    border-radius: 50%;
+    margin: 2px;
+    transition: 0.4s;
+    background-color: white;
+}
+footer .icon i:hover{
+    background-color: #322E2D;
+    color: white;
+    cursor: pointer;
+}
+/* footer close  */
+
+.news{
+    background-color: #272121;
+    padding: 50px 0px 50px 0px;
+}
+.n-style h4{
+    font-weight: 600;
+    font-size: 21px;
+    color: white;
+    line-height: 26px;
+    padding-bottom: 10PX;
+}
+.n-style .styling{
+    border-bottom: 3px solid #846F6F;
+
+}
+.n-style .styling input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.n-style .styling button{
+    background-color: transparent; 
+    overflow: none;
+    padding: 10px 30px 10px 30px;
+    color: #FF9900;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: 600;
+}
+.news img{
+    object-fit: contain;
+    height: 39px;
+}
+/* news clsoe  */
+.bottom-bar{
+    padding: 10px;
+    background: #362E2E;
+    
+}
+.bottom-bar span{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
 }
